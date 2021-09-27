@@ -43,7 +43,7 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment:$navigationVersion"
     implementation "androidx.navigation:navigation-ui:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
-    implementation 'com.google.android.material:material:1.2.0'
+    implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
 
     implementation 'net.nessness.dummy:dummy:0.9.1'
