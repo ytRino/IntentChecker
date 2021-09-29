@@ -1,8 +1,5 @@
 {
   "extends": [
     "github>hatena/renovate-config"
-  ],
-  "gradle": {
-    "deepExtract": true
-  }
+  ]
 }
