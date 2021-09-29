@@ -1,5 +1,6 @@
 {
   "extends": [
     "github>hatena/renovate-config"
-  ]
+  ],
+  "baseBranches": ["main", "renovate-config"]
 }
