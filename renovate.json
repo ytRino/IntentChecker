@@ -2,5 +2,13 @@
   "extends": [
     "github>hatena/renovate-config"
   ],
-  "baseBranches": ["main", "renovate-config"]
+  "baseBranches": ["main", "renovate-config"],
+  "packageRules": [
+    {
+      "groupName": "androidx.work",
+      "matchPackagePatterns": [
+        "^androidx\\.work:"
+      ]
+    }
+  ]
 }
