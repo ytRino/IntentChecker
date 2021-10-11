@@ -1,9 +1,18 @@
+enableFeaturePreview('VERSION_CATALOGS')
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
-        jcenter() // Warning: this repository is going to shut down soon
+    }
+
+    versionCatalogs {
+        libs {
+            version('navigation', '2.3.0')
+            alias('navigation-fragment').to('androidx.navigation', 'navigation-fragment').versionRef('navigation')
+            alias('navigation-ui').to('androidx.navigation', 'navigation-ui').versionRef('navigation')
+            bundle('androidx.navigation', ['navigation-fragment', 'navigation-ui'])
+        }
     }
 }
 rootProject.name = "IntentChecker"
