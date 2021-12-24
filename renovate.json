@@ -2,13 +2,5 @@
   "extends": [
     "github>hatena/renovate-config"
   ],
-  "baseBranches": ["main", "renovate-config"],
-  "packageRules": [
-    {
-      "groupName": "kotlinx.coroutines",
-      "matchPackagePatterns": [
-        "^org\\.jetbrains\\.kotlinx:kotlinx-coroutines"
-      ]
-    }
-  ]
+  "baseBranches": ["main", "renovate-config"]
 }
