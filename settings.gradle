@@ -8,7 +8,7 @@ dependencyResolutionManagement {
 
     versionCatalogs {
         libs {
-            version('navigation', '2.3.0')
+            version('navigation', '2.7.7')
             alias('navigation-fragment').to('androidx.navigation', 'navigation-fragment').versionRef('navigation')
             alias('navigation-ui').to('androidx.navigation', 'navigation-ui').versionRef('navigation')
             bundle('androidx.navigation', ['navigation-fragment', 'navigation-ui'])
